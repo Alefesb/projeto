@@ -1,0 +1,72 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+}
+h1{
+    
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite
+    
+}
+body{
+    padding: 0vh;
+    margin: 0vh;
+    background-color: grey
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+form{
+    background-color: cadetblue;
+    height: 40vh;
+    width: 50vh;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+.conteudo{
+    margin-top: 6vh;
+}
+.btns{
+    margin-left: 3vh;
+    margin-top: 4vh;
+}
+button{
+    height: 5vh;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    transition: 1s;
+    cursor: pointer;
+    color: cadetblue;
+    margin-left: 11vh;
+    font-family: "Rubik Mono One", monospace;
+}
+button:hover{
+    background-color: cadetblue;
+    color: antiquewhite;
+    transition: 1s;
+    cursor: pointer;
+    font-family: "Rubik Mono One", monospace;
+}
+label{
+    justify-content: center;
+    display: flex;
+    font-family: "Rubik Mono One", monospace;
+    color: antiquewhite;
+}
+input{
+    margin-left: 16vh;
+    margin-top: ;
+    border-radius: 5px;
+    box-shadow: 10px 10px 13px ;
+}
