@@ -5,10 +5,11 @@
 }
 h1{
     
-    font-family: "Rubik Mono One", monospace;
+    font-family: "Bodoni Moda SC", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic;
     color: antiquewhite
+    
     
 }
 body{
@@ -17,13 +18,18 @@ body{
     background-color: grey
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@1,6..96,400..900&family=Rubik+Mono+One&display=swap');
+
+
 
 .form{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
+    
 }
 form{
     background-color: cadetblue;
@@ -33,9 +39,10 @@ form{
     border-radius: 15px;
     border-style: solid;
     border-color: antiquewhite;
+    box-shadow: 15px 15px 8px rgb(0, 0, 0, 0.5);
 }
 .conteudo{
-    margin-top: 6vh;
+    margin-top: 5vh;
 }
 .btns{
     margin-left: 3vh;
@@ -48,8 +55,9 @@ button{
     transition: 1s;
     cursor: pointer;
     color: cadetblue;
-    margin-left: 11vh;
+    margin-left: 10vh;
     font-family: "Rubik Mono One", monospace;
+    font-size:  medium;
 }
 button:hover{
     background-color: cadetblue;
@@ -63,10 +71,13 @@ label{
     display: flex;
     font-family: "Rubik Mono One", monospace;
     color: antiquewhite;
+    font-size: large;
+    
 }
 input{
     margin-left: 16vh;
     margin-top: ;
     border-radius: 5px;
-    box-shadow: 10px 10px 13px ;
+    box-shadow: 10px 10px 13px rgb(0, 0, 0, 0.7) ;
+    border-color: white;
 }
